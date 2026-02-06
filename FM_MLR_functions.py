@@ -23,6 +23,7 @@ from scipy.signal.windows import tukey
 from mne.time_frequency import tfr_array_morlet
 import scipy.stats as stats
 from statsmodels.stats.multitest import fdrcorrection
+import random 
 
 def check_triggers(trig_points, expected_blocks=12, block_size=1000, threshold_factor=5):
     #plot the recorded triggers for inspection
